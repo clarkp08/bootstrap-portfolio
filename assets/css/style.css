@@ -1,21 +1,28 @@
 body {
 	background-image: url("../images/sports.png");
 	padding-bottom: 70px;
+	font-family: 'Work Sans', sans-serif;
 }
 
 .phil {
 	width: 50%;
 	float: left;
 	margin-right: 20px;
+	font-family: 'Work Sans', sans-serif;
 }
 
 .icons a img{
 	width: 25%;
+	font-family: 'Work Sans', sans-serif;
 }
 
 .container-footer {
 	padding: 20px;
+	font-family: 'Work Sans', sans-serif;
 }
 .caption {
 	text-align: center;
+	font-family: 'Work Sans', sans-serif;
 }
+
+font-family: 'Work Sans', sans-serif;

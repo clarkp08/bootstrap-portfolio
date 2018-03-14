@@ -35,22 +35,15 @@
 						<div class="col-md-8 col-sm-12 col-xs-12">
 							<div class="jumbotron">
 								<h2>Contact</h2>
-								<form>
-									<div class="form-group">
-										<label for="Name">Name</label>
-										<input type="password" class="form-control" id="Name" placeholder="John Doe">
-									</div>
-									<div class="form-group">
-										<label for="
-										Email">Email</label>
-										<input type="email" class="form-control" id="
-										Email" placeholder="example@gmail.com">
-									</div>
-									<div class="form-group">
-										<label for="Message">Message</label>
-										<textarea class="form-control" rows="10"></textarea>
-									</div>
-									<button type="button" class="btn btn-default">Submit</button>
+								<form action="mailto:clarkp08@gmail.com" method="post" enctype="text/plain">
+									Name:<br>
+								<input type="text" name="name"><br>
+									E-mail:<br>
+								<input type="text" name="mail"><br>
+									Comment:<br>
+								<input type="textarea" rows="10" name="comment" size="50"><br><br>
+									<input type="submit" value="Send">
+									<input type="reset" value="Reset">
 								</form>
 							</div>
 						</div>
